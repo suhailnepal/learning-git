@@ -4,27 +4,27 @@ This page will have a list of Git commands which I use/intend to use on a daily 
 
 * git push --set-upstream origin branchname
 * git remote -v
-The above command will let you view origin (remote repository)
+(This command will let you view origin (remote repository))
 * git config --list --show-origin
 * git checkout {branchname}
-The above command will change branch on the repo, it doesn't create a new branch.
+(This command will change branch on the repo, it doesn't create a new branch.)
 * git checkout -b {branchname}
-The above command will create a new branch and will also change the branch.
+(This command will create a new branch and will also change the branch.)
 * git checkout {filename}
-The above command will discard changes from an existing file in the repo.
+(This command will discard changes from an existing file in the repo.)
 * git branch -d {branchname}
-The above command will delete the branch (manually)
+(This command will delete the branch (manually))
 * git branch -a
-The above command will list down all the branches in the repo. 
+(This command will list down all the branches in the repo.)
 Ensure that you done a `git fetch` on the repo which will fetch all the remote branches in the repo. 
 * git log
 * git log --all --graph --oneline --decorate 
-The above command will make the logs look a bit cleaner.
+(This command will make the logs look a bit cleaner.)
 * git commit --amend
-The above command will amend the last commit message, it will open up a new terminal where you can make changes.
+(This command will amend the last commit message, it will open up a new terminal where you can make changes.)
 * git reset --soft HEAD~1
-The above command will reset the last commit message, soft reset will ensure that any files which are not commited or tracked will remain as is.
+(This command will reset the last commit message, soft reset will ensure that any files which are not commited or tracked will remain as is.)
 * git config --global fetch.prune true
-The above git config will ensure that all branches which are not being used will be pruned or cleaned. Be cautious before using this command.
+(This git config will ensure that all branches which are not being used will be pruned or cleaned. Be cautious before using this command.)
 * git config --global pull.rebase true
-The above git config will ensure that all git pull moving forward will do a rebase with all git pull 
+(This git config will ensure that all git pull moving forward will do a rebase with all git pull)
