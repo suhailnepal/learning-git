@@ -28,3 +28,5 @@ Ensure that you done a `git fetch` on the repo which will fetch all the remote b
 (This git config will ensure that all branches which are not being used will be pruned or cleaned. Be cautious before using this command.)
 * git config --global pull.rebase true
 (This git config will ensure that all git pull moving forward will do a rebase with all git pull)
+* git blame {filename}
+Blame someone for your mistakes :-) 

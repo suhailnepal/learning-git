@@ -25,4 +25,11 @@ At a very high level, there are 2 ways of doing a git pull:
 In the above, ff stands for fast forward merge which is the default way of doina a merge, it is recommended to use the first method for git pull, you can add the following in your git config to ensure that rebase is the chosen method for all git pulls
 * git config --global pull.rebase true
 
+### Rebase from another branch
 
+This is a very common scnerio where you are working on a new branch and want to rebase with master before you create a PR. I have had this situation where I had had to work on a branch for few days, and there was a delta of changes in the main branch during those time. 
+Run the following commands in sequenuce so that you are branch is upto date before merging/creating a PR:
+
+* git checkout {branch}
+* git fetch origin main
+* git rebase origin/main
