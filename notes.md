@@ -13,4 +13,7 @@ This is very common in the following, here branch1 is the name of the branch
 
 Head is a pointer which tells us where the current branch is pointing. The other way to look at this, it tells us where we are working at the moment.
 
+### Gitignore
+
+This is a file which can used if you want to ignore a specific file to be commited. You can use regex, wildcards in gitignore. One of the example could be with terraform where you don't want to commit *.tfstate file and might want to add them in .gitignore files.
 
